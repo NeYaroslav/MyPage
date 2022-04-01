@@ -14,19 +14,14 @@ burger.addEventListener("click", ()=>{
 	document.querySelector("body").classList.toggle("show_menu")
 })
 
-// let bg = document.querySelector(".main_bg__block img")
-// var bg_height = document.querySelector(".main_bg__block img").clientHeight
-// window.addEventListener("scroll", ()=> {
-//     if(bg_height > scrollY){
-//         bg.style.top =  scrollY/1.75 + 'px'
-//     }
-//     if(!scrollY == 0) {
-//         document.querySelector('.go__up').classList.add('show')
-//     }
-//     else {
-//         document.querySelector('.go__up').classList.remove('show')
-//     }
-// })
+window.addEventListener("scroll", ()=> {
+    if(!scrollY == 0) {
+        document.querySelector('.go__up').classList.add('show')
+    }
+    else {
+        document.querySelector('.go__up').classList.remove('show')
+    }
+})
 
 
 

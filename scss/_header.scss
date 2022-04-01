@@ -52,12 +52,11 @@ header {
 .main_bg__block {
   width: 100%;
   height: 100vh;
-  background: url("../imgs/bg_2.png");
+  background: url("/imgs/bg_2.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  // background: #000;
 }
 .vintage__text__Block {
   padding: 117px 15px 140px;
