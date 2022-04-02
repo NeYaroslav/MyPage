@@ -15,7 +15,7 @@ burger.addEventListener("click", ()=>{
 })
 const links = document.querySelectorAll(".header__nav__menu__link a")
 for(let index = 0; index < links.length; index++){
-    if(document.querySelector("body").contains(".show_menu")) {
+    if(document.querySelector("body").contains("show_menu")) {
         links[index].addEventListener("click", ()=>{
 	document.querySelector("body").classList.remove("show_menu")
 })
